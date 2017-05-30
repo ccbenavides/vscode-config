@@ -1,0 +1,7 @@
+// Coloque su configuración en este archivo para sobrescribir la configuración predeterminada.
+{
+    "window.zoomLevel": 0,
+    "typescript.check.tscVersion": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "workbench.colorTheme": "Visual Studio Light"
+}

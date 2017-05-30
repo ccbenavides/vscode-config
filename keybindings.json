@@ -1,0 +1,32 @@
+// Coloque sus enlaces de teclado en este archivo para sobrescribir los valores predeterminados.
+[
+
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.action.files.openFolder"
+    },
+    {    "key": "ctrl+Alt+m",                
+        "command": "workbench.action.toggleMaximizedPanel" 
+    }
+    ,{
+        "key": "ctrl+shift+numpad8",
+        "command": "workbench.action.terminal.runSelectedText"
+    },{
+        "key": "Ctrl+Alt+t",
+        "command": "workbench.action.files.newFile"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
+]
